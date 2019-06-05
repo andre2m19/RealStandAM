@@ -1,0 +1,14 @@
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\bin\Debug\RealStandAM__.exe.config
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\bin\Debug\RealStandAM__.exe
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\bin\Debug\RealStandAM__.pdb
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\bin\Debug\EntityFramework.dll
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\bin\Debug\EntityFramework.xml
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\obj\Debug\RealStandAM__.csprojAssemblyReference.cache
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\obj\Debug\RealStandAM__.Properties.Resources.resources
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\obj\Debug\RealStandAM__.csproj.GenerateResource.cache
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\obj\Debug\RealStandAM__.csproj.CoreCompileInputs.cache
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\obj\Debug\RealStandAM__.csproj.CopyComplete
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\obj\Debug\RealStandAM__.exe
+C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\obj\Debug\RealStandAM__.pdb

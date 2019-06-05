@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="25d15d64dad2459dba590206491a69e4" Name="Diagram1" ZoomLevel="74" >
+        <EntityTypeShape EntityType="RealStandAMmodel.Cliente" Width="1.5" PointX="0.625" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RealStandAMmodel.Venda" Width="1.5" PointX="4.125" PointY="3" />
+        <EntityTypeShape EntityType="RealStandAMmodel.Parcela" Width="1.5" PointX="4.75" PointY="0.875" />
+        <EntityTypeShape EntityType="RealStandAMmodel.Servico" PointX="7.5" PointY="0.75" Width="1.5" />
+        <EntityTypeShape EntityType="RealStandAMmodel.Aluguer" Width="1.5" PointX="4.625" PointY="6.5" />
+        <EntityTypeShape EntityType="RealStandAMmodel.Carro" Width="1.5" PointX="9.875" PointY="3.25" />
+        <EntityTypeShape EntityType="RealStandAMmodel.CarroOficina" Width="1.5" PointX="10.125" PointY="0.5" />
+        <InheritanceConnector EntityType="RealStandAMmodel.CarroOficina" />
+        <EntityTypeShape EntityType="RealStandAMmodel.CarroAluguer" Width="1.5" PointX="9.625" PointY="6.375" />
+        <InheritanceConnector EntityType="RealStandAMmodel.CarroAluguer" />
+        <EntityTypeShape EntityType="RealStandAMmodel.CarroVenda" Width="1.5" PointX="6.5" PointY="3.375" />
+        <InheritanceConnector EntityType="RealStandAMmodel.CarroVenda" />
+        <AssociationConnector Association="RealStandAMmodel.ClienteCarroOficina" />
+        <AssociationConnector Association="RealStandAMmodel.ClienteVenda" />
+        <AssociationConnector Association="RealStandAMmodel.ClienteAluguer" />
+        <AssociationConnector Association="RealStandAMmodel.VendaCarroVenda" />
+        <AssociationConnector Association="RealStandAMmodel.ParcelaServico" />
+        <AssociationConnector Association="RealStandAMmodel.ServicoCarroOficina" />
+        <AssociationConnector Association="RealStandAMmodel.CarroAluguerAluguer" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
