@@ -54,6 +54,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCarro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCarro.Designer.cs">
+      <DependentUpon>AddCarro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Aluguer.create.cs" />
     <Compile Include="Aluguer.cs">
       <DependentUpon>RealStandAMmodel.tt</DependentUpon>
     </Compile>
@@ -61,16 +68,19 @@
     <Compile Include="Carro.cs">
       <DependentUpon>RealStandAMmodel.tt</DependentUpon>
     </Compile>
+    <Compile Include="CarroAluguer.create.cs" />
     <Compile Include="CarroAluguer.cs">
       <DependentUpon>RealStandAMmodel.tt</DependentUpon>
     </Compile>
+    <Compile Include="CarroOficina.create.cs" />
     <Compile Include="CarroOficina.cs">
       <DependentUpon>RealStandAMmodel.tt</DependentUpon>
     </Compile>
+    <Compile Include="CarroVenda.create.cs" />
     <Compile Include="CarroVenda.cs">
       <DependentUpon>RealStandAMmodel.tt</DependentUpon>
     </Compile>
-    <Compile Include="cliente.create.cs" />
+    <Compile Include="Cliente.create.cs" />
     <Compile Include="Cliente.cs">
       <DependentUpon>RealStandAMmodel.tt</DependentUpon>
     </Compile>
@@ -80,6 +90,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GestaoCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestaoCliente.Designer.cs">
+      <DependentUpon>GestaoCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestaoOficina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestaoOficina.Designer.cs">
+      <DependentUpon>GestaoOficina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parcela.create.cs" />
     <Compile Include="Parcela.cs">
       <DependentUpon>RealStandAMmodel.tt</DependentUpon>
     </Compile>
@@ -100,12 +123,26 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RealStandAMmodel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Servico.create.cs" />
     <Compile Include="Servico.cs">
       <DependentUpon>RealStandAMmodel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Venda.create.cs" />
     <Compile Include="Venda.cs">
       <DependentUpon>RealStandAMmodel.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddCarro.resx">
+      <DependentUpon>AddCarro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestaoCliente.resx">
+      <DependentUpon>GestaoCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestaoOficina.resx">
+      <DependentUpon>GestaoOficina.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -116,6 +153,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\CarroOficina.datasource" />
+    <None Include="Properties\DataSources\CarroVenda.datasource" />
+    <None Include="Properties\DataSources\Cliente.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

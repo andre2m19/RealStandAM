@@ -10,8 +10,16 @@ namespace RealStandAM__
     {
         public Cliente (string nome, string morada, string contacto, string nif)
         {
-            
+            Nome = nome;
+            Morada = morada;
+            Contacto = contacto;
+            Nif = nif;
         }
-        
+
+        public override string ToString()
+        {
+            return Nome + "(" + Nif + ")";
+        }
+
     }
 }

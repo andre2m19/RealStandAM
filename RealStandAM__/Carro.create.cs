@@ -11,9 +11,9 @@ namespace RealStandAM__
     {
         public Carro()
         {
-
         }
-        public Carro(string numerochassis, string marca, string modelo, string combustivel) : base()
+
+        public Carro(string numerochassis, string marca, string modelo, string combustivel)
         {
             NumeroChassis = numerochassis;
             Marca = marca;

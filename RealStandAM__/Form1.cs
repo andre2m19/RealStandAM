@@ -16,5 +16,17 @@ namespace RealStandAM__
         {
             InitializeComponent();
         }
+
+        private void FormGestao_Click(object sender, EventArgs e)
+        {
+            GestaoCliente gestaocliente = new GestaoCliente();
+            gestaocliente.ShowDialog();
+        }
+
+        private void GestorOficina_Click(object sender, EventArgs e)
+        {
+            GestaoOficina gestaooficina = new GestaoOficina();
+            gestaooficina.ShowDialog();
+        }
     }
 }
