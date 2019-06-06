@@ -24,6 +24,17 @@ namespace RealStandAM__
             RealStandAM__ = new RealStandAMmodelContainer();
         }
 
+        private void GestaoOficina_Load(object sender, EventArgs e)
+        {
+            RealStandAM__ = new RealStandAMmodelContainer();
+            LerDados();
+        }
+
+        private void LerDados()
+        {
+            listBoxCLientes.DataSource = RealStandAM__.ClienteSet.ToList<Cliente>();
+        }
+
         private void listBoxCLientes_SelectedIndexChanged(object sender, EventArgs e)
         {
             Cliente clienteSelecionado = (Cliente)listBoxCLientes.SelectedItem;
@@ -45,11 +56,11 @@ namespace RealStandAM__
 
             clienteSelecionado.CarroOficina.Add(carroOficina);
 
-            listBoxOficina.DataSource = null;
+            RealStandAM__.SaveChanges();
 
             listBoxOficina.DataSource = clienteSelecionado.CarroOficina;
 
-            listBoxServico.SelectedItem = carroOficina;
+            
 
             marcaTextBox.Text = "";
             modeloTextBox.Text = "";

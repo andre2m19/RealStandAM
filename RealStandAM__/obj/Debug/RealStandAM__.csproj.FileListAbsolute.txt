@@ -17,7 +17,6 @@ C:\Users\2180678\Desktop\Projecto RS\RealStandAM__\RealStandAM__\obj\Debug\RealS
 C:\Users\2180678\Desktop\Projecto RS\RealStandAM__\RealStandAM__\obj\Debug\RealStandAM__.exe
 C:\Users\2180678\Desktop\Projecto RS\RealStandAM__\RealStandAM__\obj\Debug\RealStandAM__.pdb
 C:\Users\Andre\Desktop\Projecto RS\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csprojAssemblyReference.cache
-C:\Users\Andre\Desktop\Projecto RS\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.AddCarro.resources
 C:\Users\Andre\Desktop\Projecto RS\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.Form1.resources
 C:\Users\Andre\Desktop\Projecto RS\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoCliente.resources
 C:\Users\Andre\Desktop\Projecto RS\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoOficina.resources
