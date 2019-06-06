@@ -182,7 +182,6 @@
       <LastGenOutput>RealStandAMmodel.Context.cs</LastGenOutput>
       <DependentUpon>RealStandAMmodel.edmx</DependentUpon>
     </Content>
-    <Content Include="RealStandAMmodel.edmx.sql" />
     <Content Include="RealStandAMmodel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>RealStandAMmodel.cs</LastGenOutput>

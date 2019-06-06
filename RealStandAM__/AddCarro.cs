@@ -22,6 +22,11 @@ namespace RealStandAM__
             if (matriculaTextBox.Text.Length == 0)
                 return;
 
+
+
+            criar carro novo
+                guiar com o codigo de cliente
+
             //Cliente clienteSelecionado = (Cliente)ListBoxClientes.Selec
         }
     }

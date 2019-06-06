@@ -13,5 +13,10 @@ namespace RealStandAM__
             Valor = valor;
             Descricao = descricao;
         }
+
+        public override string ToString()
+        {
+            return Valor + "(" + Descricao + ")";
+        }
     }
 }

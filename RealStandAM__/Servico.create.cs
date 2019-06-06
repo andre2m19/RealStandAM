@@ -14,5 +14,10 @@ namespace RealStandAM__
             DataSaida = datasaida;
             Tipo = tipo;
         }
+
+        public override string ToString()
+        {
+            return Tipo;
+        }
     }
 }

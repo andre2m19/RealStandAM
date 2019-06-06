@@ -29,27 +29,27 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddCarro));
             System.Windows.Forms.Label combustivelLabel;
             System.Windows.Forms.Label kmsLabel;
             System.Windows.Forms.Label marcaLabel;
             System.Windows.Forms.Label matriculaLabel;
             System.Windows.Forms.Label modeloLabel;
             System.Windows.Forms.Label numeroChassisLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddCarro));
             this.buttonCarro = new System.Windows.Forms.Button();
             this.carroOficinaBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.carroOficinaBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.carroOficinaBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.combustivelTextBox = new System.Windows.Forms.TextBox();
             this.kmsTextBox = new System.Windows.Forms.TextBox();
@@ -68,19 +68,69 @@
             this.carroOficinaBindingNavigator.SuspendLayout();
             this.SuspendLayout();
             // 
+            // combustivelLabel
+            // 
+            combustivelLabel.AutoSize = true;
+            combustivelLabel.Location = new System.Drawing.Point(80, 98);
+            combustivelLabel.Name = "combustivelLabel";
+            combustivelLabel.Size = new System.Drawing.Size(67, 13);
+            combustivelLabel.TabIndex = 26;
+            combustivelLabel.Text = "Combustivel:";
+            // 
+            // kmsLabel
+            // 
+            kmsLabel.AutoSize = true;
+            kmsLabel.Location = new System.Drawing.Point(80, 124);
+            kmsLabel.Name = "kmsLabel";
+            kmsLabel.Size = new System.Drawing.Size(30, 13);
+            kmsLabel.TabIndex = 30;
+            kmsLabel.Text = "Kms:";
+            // 
+            // marcaLabel
+            // 
+            marcaLabel.AutoSize = true;
+            marcaLabel.Location = new System.Drawing.Point(80, 150);
+            marcaLabel.Name = "marcaLabel";
+            marcaLabel.Size = new System.Drawing.Size(40, 13);
+            marcaLabel.TabIndex = 32;
+            marcaLabel.Text = "Marca:";
+            // 
+            // matriculaLabel
+            // 
+            matriculaLabel.AutoSize = true;
+            matriculaLabel.Location = new System.Drawing.Point(80, 179);
+            matriculaLabel.Name = "matriculaLabel";
+            matriculaLabel.Size = new System.Drawing.Size(53, 13);
+            matriculaLabel.TabIndex = 34;
+            matriculaLabel.Text = "Matricula:";
+            // 
+            // modeloLabel
+            // 
+            modeloLabel.AutoSize = true;
+            modeloLabel.Location = new System.Drawing.Point(80, 202);
+            modeloLabel.Name = "modeloLabel";
+            modeloLabel.Size = new System.Drawing.Size(45, 13);
+            modeloLabel.TabIndex = 36;
+            modeloLabel.Text = "Modelo:";
+            // 
+            // numeroChassisLabel
+            // 
+            numeroChassisLabel.AutoSize = true;
+            numeroChassisLabel.Location = new System.Drawing.Point(80, 228);
+            numeroChassisLabel.Name = "numeroChassisLabel";
+            numeroChassisLabel.Size = new System.Drawing.Size(86, 13);
+            numeroChassisLabel.TabIndex = 38;
+            numeroChassisLabel.Text = "Numero Chassis:";
+            // 
             // buttonCarro
             // 
-            this.buttonCarro.Location = new System.Drawing.Point(67, 462);
+            this.buttonCarro.Location = new System.Drawing.Point(95, 310);
             this.buttonCarro.Name = "buttonCarro";
             this.buttonCarro.Size = new System.Drawing.Size(158, 23);
             this.buttonCarro.TabIndex = 23;
             this.buttonCarro.Text = "Adicionar Carro";
             this.buttonCarro.UseVisualStyleBackColor = true;
             this.buttonCarro.Click += new System.EventHandler(this.buttonCarro_Click);
-            // 
-            // carroOficinaBindingSource
-            // 
-            this.carroOficinaBindingSource.DataSource = typeof(RealStandAM__.CarroOficina);
             // 
             // carroOficinaBindingNavigator
             // 
@@ -111,6 +161,31 @@
             this.carroOficinaBindingNavigator.Size = new System.Drawing.Size(335, 25);
             this.carroOficinaBindingNavigator.TabIndex = 24;
             this.carroOficinaBindingNavigator.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Add new";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
+            this.bindingNavigatorCountItem.Text = "of {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -144,16 +219,9 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Current position";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 22);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
@@ -176,26 +244,8 @@
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
             // 
             // carroOficinaBindingNavigatorSaveItem
             // 
@@ -206,15 +256,6 @@
             this.carroOficinaBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
             this.carroOficinaBindingNavigatorSaveItem.Text = "Save Data";
             // 
-            // combustivelLabel
-            // 
-            combustivelLabel.AutoSize = true;
-            combustivelLabel.Location = new System.Drawing.Point(80, 98);
-            combustivelLabel.Name = "combustivelLabel";
-            combustivelLabel.Size = new System.Drawing.Size(67, 13);
-            combustivelLabel.TabIndex = 26;
-            combustivelLabel.Text = "Combustivel:";
-            // 
             // combustivelTextBox
             // 
             this.combustivelTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.carroOficinaBindingSource, "Combustivel", true));
@@ -222,15 +263,6 @@
             this.combustivelTextBox.Name = "combustivelTextBox";
             this.combustivelTextBox.Size = new System.Drawing.Size(100, 20);
             this.combustivelTextBox.TabIndex = 27;
-            // 
-            // kmsLabel
-            // 
-            kmsLabel.AutoSize = true;
-            kmsLabel.Location = new System.Drawing.Point(80, 124);
-            kmsLabel.Name = "kmsLabel";
-            kmsLabel.Size = new System.Drawing.Size(30, 13);
-            kmsLabel.TabIndex = 30;
-            kmsLabel.Text = "Kms:";
             // 
             // kmsTextBox
             // 
@@ -240,15 +272,6 @@
             this.kmsTextBox.Size = new System.Drawing.Size(100, 20);
             this.kmsTextBox.TabIndex = 31;
             // 
-            // marcaLabel
-            // 
-            marcaLabel.AutoSize = true;
-            marcaLabel.Location = new System.Drawing.Point(80, 150);
-            marcaLabel.Name = "marcaLabel";
-            marcaLabel.Size = new System.Drawing.Size(40, 13);
-            marcaLabel.TabIndex = 32;
-            marcaLabel.Text = "Marca:";
-            // 
             // marcaTextBox
             // 
             this.marcaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.carroOficinaBindingSource, "Marca", true));
@@ -256,15 +279,6 @@
             this.marcaTextBox.Name = "marcaTextBox";
             this.marcaTextBox.Size = new System.Drawing.Size(100, 20);
             this.marcaTextBox.TabIndex = 33;
-            // 
-            // matriculaLabel
-            // 
-            matriculaLabel.AutoSize = true;
-            matriculaLabel.Location = new System.Drawing.Point(80, 179);
-            matriculaLabel.Name = "matriculaLabel";
-            matriculaLabel.Size = new System.Drawing.Size(53, 13);
-            matriculaLabel.TabIndex = 34;
-            matriculaLabel.Text = "Matricula:";
             // 
             // matriculaTextBox
             // 
@@ -274,15 +288,6 @@
             this.matriculaTextBox.Size = new System.Drawing.Size(100, 20);
             this.matriculaTextBox.TabIndex = 35;
             // 
-            // modeloLabel
-            // 
-            modeloLabel.AutoSize = true;
-            modeloLabel.Location = new System.Drawing.Point(80, 202);
-            modeloLabel.Name = "modeloLabel";
-            modeloLabel.Size = new System.Drawing.Size(45, 13);
-            modeloLabel.TabIndex = 36;
-            modeloLabel.Text = "Modelo:";
-            // 
             // modeloTextBox
             // 
             this.modeloTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.carroOficinaBindingSource, "Modelo", true));
@@ -290,15 +295,6 @@
             this.modeloTextBox.Name = "modeloTextBox";
             this.modeloTextBox.Size = new System.Drawing.Size(100, 20);
             this.modeloTextBox.TabIndex = 37;
-            // 
-            // numeroChassisLabel
-            // 
-            numeroChassisLabel.AutoSize = true;
-            numeroChassisLabel.Location = new System.Drawing.Point(80, 228);
-            numeroChassisLabel.Name = "numeroChassisLabel";
-            numeroChassisLabel.Size = new System.Drawing.Size(86, 13);
-            numeroChassisLabel.TabIndex = 38;
-            numeroChassisLabel.Text = "Numero Chassis:";
             // 
             // numeroChassisTextBox
             // 
@@ -312,7 +308,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(335, 510);
+            this.ClientSize = new System.Drawing.Size(335, 373);
             this.Controls.Add(combustivelLabel);
             this.Controls.Add(this.combustivelTextBox);
             this.Controls.Add(kmsLabel);

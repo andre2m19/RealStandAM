@@ -313,7 +313,7 @@
             // 
             // clienteBindingSource
             // 
-            this.clienteBindingSource.DataSource = typeof(RealStandAM__.Cliente);
+
             // 
             // dataGridViewTextBoxColumn1
             // 
