@@ -14,5 +14,10 @@ namespace RealStandAM__
             Estado = estado;
             Data = data;
         }
+
+        public override string ToString()
+        {
+            return Valor;
+        }
     }
 }

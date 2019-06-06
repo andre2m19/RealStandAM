@@ -54,12 +54,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCarro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AddCarro.Designer.cs">
-      <DependentUpon>AddCarro.cs</DependentUpon>
-    </Compile>
     <Compile Include="Aluguer.create.cs" />
     <Compile Include="Aluguer.cs">
       <DependentUpon>RealStandAMmodel.tt</DependentUpon>
@@ -131,9 +125,6 @@
     <Compile Include="Venda.cs">
       <DependentUpon>RealStandAMmodel.tt</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddCarro.resx">
-      <DependentUpon>AddCarro.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,6 +173,7 @@
       <LastGenOutput>RealStandAMmodel.Context.cs</LastGenOutput>
       <DependentUpon>RealStandAMmodel.edmx</DependentUpon>
     </Content>
+    <Content Include="RealStandAMmodel.edmx.sql" />
     <Content Include="RealStandAMmodel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>RealStandAMmodel.cs</LastGenOutput>

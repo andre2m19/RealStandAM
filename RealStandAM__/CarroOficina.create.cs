@@ -8,10 +8,12 @@ namespace RealStandAM__
 {
     public partial class CarroOficina 
     {
-      public CarroOficina  (string numerochassis, string marca, string modelo, string combustivel, string matricula, string kms):base(numerochassis, marca, modelo, combustivel)
+
+        public CarroOficina  (string numerochassis, string marca, string modelo, string combustivel, string matricula, string kms):base(numerochassis, marca, modelo, combustivel)
         {
             Matricula = matricula;
             Kms = kms;
+            this.Servico = new HashSet<Servico>();
         }
 
         public override string ToString()

@@ -8,6 +8,10 @@ namespace RealStandAM__
 {
     public partial class Servico
     {
+        public Servico(object p)
+        {
+        }
+
         public Servico(string dataentrada, string datasaida, string tipo)
         {
             DataEntrada = dataentrada;

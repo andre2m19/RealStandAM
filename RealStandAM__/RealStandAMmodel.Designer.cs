@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\2180678\source\repos\RealStandAM__\RealStandAM__\RealStandAMmodel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Andre\Desktop\Projecto RS\RealStandAM\RealStandAM__\RealStandAMmodel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
