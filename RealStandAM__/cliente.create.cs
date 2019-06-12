@@ -16,6 +16,7 @@ namespace RealStandAM__
             Nif = nif;
             this.CarroOficina = new HashSet<CarroOficina>();
         }
+      
 
         public override string ToString()
         {

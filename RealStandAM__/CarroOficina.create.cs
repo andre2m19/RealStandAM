@@ -18,7 +18,8 @@ namespace RealStandAM__
 
         public override string ToString()
         {
-            return Matricula + "(" + Kms + ")";
+            return Marca + "(" + Modelo + ")";
         }
+
     }
 }

@@ -84,6 +84,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GestaoAluguer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestaoAluguer.Designer.cs">
+      <DependentUpon>GestaoAluguer.cs</DependentUpon>
+    </Compile>
     <Compile Include="GestaoCliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,12 @@
     </Compile>
     <Compile Include="GestaoOficina.Designer.cs">
       <DependentUpon>GestaoOficina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestaoVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestaoVenda.Designer.cs">
+      <DependentUpon>GestaoVenda.cs</DependentUpon>
     </Compile>
     <Compile Include="Parcela.create.cs" />
     <Compile Include="Parcela.cs">
@@ -128,11 +140,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GestaoAluguer.resx">
+      <DependentUpon>GestaoAluguer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GestaoCliente.resx">
       <DependentUpon>GestaoCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GestaoOficina.resx">
       <DependentUpon>GestaoOficina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestaoVenda.resx">
+      <DependentUpon>GestaoVenda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -144,6 +162,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\Aluguer.datasource" />
+    <None Include="Properties\DataSources\CarroAluguer.datasource" />
     <None Include="Properties\DataSources\CarroOficina.datasource" />
     <None Include="Properties\DataSources\CarroVenda.datasource" />
     <None Include="Properties\DataSources\Cliente.datasource" />

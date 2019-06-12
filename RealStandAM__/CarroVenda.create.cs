@@ -8,6 +8,10 @@ namespace RealStandAM__
 {
     public partial class CarroVenda
     {
+        public CarroVenda(string numerochassis, string marca, string modelo, string combustivel) : base(numerochassis, marca, modelo, combustivel)
+        {
+        }
+
         public CarroVenda(string numerochassis, string marca, string modelo, string combustivel, string extras) : base(numerochassis, marca, modelo, combustivel)
         {
             Extras = extras;

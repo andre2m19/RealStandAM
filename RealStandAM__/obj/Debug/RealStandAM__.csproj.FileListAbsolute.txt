@@ -33,3 +33,60 @@ C:\Users\Andre\Desktop\Projecto RS\RealStandAM\RealStandAM__\bin\Debug\EntityFra
 C:\Users\Andre\Desktop\Projecto RS\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.xml
 C:\Users\Andre\Desktop\Projecto RS\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Andre\Desktop\Projecto RS\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csproj.CopyComplete
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\bin\Debug\RealStandAM__.exe.config
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\bin\Debug\RealStandAM__.exe
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\bin\Debug\RealStandAM__.pdb
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.dll
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.xml
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csprojAssemblyReference.cache
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.Form1.resources
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoCliente.resources
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoOficina.resources
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.Properties.Resources.resources
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csproj.GenerateResource.cache
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csproj.CopyComplete
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.exe
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.pdb
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoVenda.resources
+C:\Users\Andre\Desktop\fodasse\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoAluguer.resources
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csprojAssemblyReference.cache
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.Form1.resources
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoAluguer.resources
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoCliente.resources
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoOficina.resources
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoVenda.resources
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.Properties.Resources.resources
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csproj.GenerateResource.cache
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.exe
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.pdb
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\bin\Debug\RealStandAM__.exe.config
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\bin\Debug\RealStandAM__.exe
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\bin\Debug\RealStandAM__.pdb
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.dll
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.xml
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andre\Desktop\RESERVA FODASSE\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csproj.CopyComplete
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csprojAssemblyReference.cache
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.Form1.resources
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoAluguer.resources
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoCliente.resources
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoOficina.resources
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.GestaoVenda.resources
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.Properties.Resources.resources
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csproj.GenerateResource.cache
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.exe
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.pdb
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\bin\Debug\RealStandAM__.exe.config
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\bin\Debug\RealStandAM__.exe
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\bin\Debug\RealStandAM__.pdb
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.dll
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.xml
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andre\Desktop\RealStand (André, PL3, n.2180678)\RealStandAM\RealStandAM__\obj\Debug\RealStandAM__.csproj.CopyComplete

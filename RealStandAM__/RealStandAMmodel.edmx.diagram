@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="25d15d64dad2459dba590206491a69e4" Name="Diagram1" ZoomLevel="74" >
+      <Diagram DiagramId="25d15d64dad2459dba590206491a69e4" Name="Diagram1" ZoomLevel="85" >
         <EntityTypeShape EntityType="RealStandAMmodel.Cliente" Width="1.5" PointX="0.625" PointY="2.75" IsExpanded="true" />
         <EntityTypeShape EntityType="RealStandAMmodel.Venda" Width="1.5" PointX="4.125" PointY="3" />
         <EntityTypeShape EntityType="RealStandAMmodel.Parcela" Width="1.5" PointX="4.75" PointY="0.875" />

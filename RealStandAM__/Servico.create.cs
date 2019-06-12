@@ -17,6 +17,7 @@ namespace RealStandAM__
             DataEntrada = dataentrada;
             DataSaida = datasaida;
             Tipo = tipo;
+            this.Parcela = new HashSet<Parcela>();
         }
 
         public override string ToString()

@@ -20,34 +20,37 @@ namespace RealStandAM__
             RealStandAM__ = new RealStandAMmodelContainer();
 
             listBoxCLientes.DataSource = RealStandAM__.ClienteSet.ToList();
-
-            RealStandAM__ = new RealStandAMmodelContainer();
+       
         }
 
+        //Iniciar o Gestor
         private void GestaoOficina_Load(object sender, EventArgs e)
         {
             RealStandAM__ = new RealStandAMmodelContainer();
             LerDados();
         }
 
+        //Ler os dados dos Clientes
         private void LerDados()
         {
             listBoxCLientes.DataSource = RealStandAM__.ClienteSet.ToList<Cliente>();
         }
 
+        //Listar os clientes na LisBox
         private void listBoxCLientes_SelectedIndexChanged(object sender, EventArgs e)
         {
             Cliente clienteSelecionado = (Cliente)listBoxCLientes.SelectedItem;
 
-            labelCliente.Text = clienteSelecionado.Nome;
+            labelClientes.Text = clienteSelecionado.Nome;
             labelNif.Text = clienteSelecionado.Nif;
             
 
         }
 
+        //Adicionar o carro ao Cliente
         private void buttonAddCarro_Click(object sender, EventArgs e)
         {
-            if (listBoxCLientes.SelectedIndex == -1)
+            if(listBoxCLientes.SelectedIndex == -1)
                 return;
 
             Cliente clienteSelecionado = (Cliente)listBoxCLientes.SelectedItem;
@@ -58,14 +61,10 @@ namespace RealStandAM__
 
             RealStandAM__.SaveChanges();
 
-            listBoxOficina.DataSource = clienteSelecionado.CarroOficina;
-
-            
-
-            marcaTextBox.Text = "";
-            modeloTextBox.Text = "";
+            listBoxOficina.DataSource = clienteSelecionado.CarroOficina.ToList();
         }
 
+        //Listar o carro na listbox
         private void listBoxOficina_SelectedIndexChanged(object sender, EventArgs e)
         {
             CarroOficina carroSelecionado = (CarroOficina)listBoxOficina.SelectedItem;
@@ -74,17 +73,31 @@ namespace RealStandAM__
             listBoxServico.DataSource = carroSelecionado.Servico.ToList();
         }
 
+        //Remover o carro
+        private void buttonRemover_Click(object sender, EventArgs e)
+        {
+            Carro carroSelecionado = (Carro)listBoxOficina.SelectedItem;
+
+            RealStandAM__.CarroSet.Remove(carroSelecionado);
+
+            RealStandAM__.SaveChanges();
+
+            listBoxCLientes.DataSource = RealStandAM__.ClienteSet.ToList();
+        }
+
+        //Adicionar o serviço ao carro
         private void buttonAddServico_Click(object sender, EventArgs e)
         {
             CarroOficina carroSelecionado = (CarroOficina)listBoxOficina.SelectedItem;
-
             Servico servico = new Servico(comboBoxServico.SelectedItem.ToString());
 
             carroSelecionado.Servico.Add(servico);
 
             RealStandAM__.SaveChanges();
+            listBoxServico.DataSource = carroSelecionado.Servico.ToList();
         }
 
+        //Listar o serviço
         private void listBoxServico_SelectedIndexChanged(object sender, EventArgs e)
         {
             Servico servicoSelecionado = (Servico)listBoxServico.SelectedItem;
@@ -92,6 +105,7 @@ namespace RealStandAM__
             listBoxParcela.DataSource = servicoSelecionado.Parcela.ToList();
         }
 
+        //Adicionar a parcela ao serviço
         private void buttonaddParcela_Click(object sender, EventArgs e)
         {          
             Servico servicoSelecionado = (Servico)listBoxServico.SelectedItem;
@@ -104,9 +118,42 @@ namespace RealStandAM__
             listBoxParcela.DataSource = servicoSelecionado.Parcela.ToList();
         }
 
+        //Listar a parcela
         private void listBoxParcela_SelectedIndexChanged(object sender, EventArgs e)
         {
             Parcela parcelaSelecionado = (Parcela)listBoxParcela.SelectedItem;
         }
+
+        //Apenas é valido inserir numeros    
+        private void numeroChassisTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (System.Text.RegularExpressions.Regex.IsMatch(numeroChassisTextBox.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Por favor insira números.");
+                numeroChassisTextBox.Text = numeroChassisTextBox.Text.Remove(numeroChassisTextBox.Text.Length - 1);
+            }
+        }
+
+        //Apenas é valido inserir numeros    
+        private void kmsTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (System.Text.RegularExpressions.Regex.IsMatch(kmsTextBox.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Por favor insira números.");
+                kmsTextBox.Text = kmsTextBox.Text.Remove(kmsTextBox.Text.Length - 1);
+            }
+        }
+
+        //Apenas é valido inserir numeros    
+        private void textBoxValor_TextChanged(object sender, EventArgs e)
+        {
+            if (System.Text.RegularExpressions.Regex.IsMatch(textBoxValor.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Por favor insira números.");
+                textBoxValor.Text = textBoxValor.Text.Remove(textBoxValor.Text.Length - 1);
+            }
+        }
+
+        
     }
 }

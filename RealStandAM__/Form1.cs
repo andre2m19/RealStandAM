@@ -18,16 +18,32 @@ namespace RealStandAM__
             InitializeComponent();
         }
 
+        //Botao de acesso ao Gestor de Clientes
         private void FormGestao_Click(object sender, EventArgs e)
         {
             GestaoCliente gestaocliente = new GestaoCliente();
-            gestaocliente.ShowDialog();
+            gestaocliente.Show();
         }
 
+        //Botao de acesso ao Gestor de Oficina
         private void GestorOficina_Click(object sender, EventArgs e)
         {
             GestaoOficina gestaooficina = new GestaoOficina();
-            gestaooficina.ShowDialog();
+            gestaooficina.Show();
+        }
+
+        //Botao de acesso ao Gestor de Vendas
+        private void buttonGestaoVenda_Click(object sender, EventArgs e)
+        {
+            GestaoVenda gestaoVenda = new GestaoVenda();
+            gestaoVenda.Show();
+        }
+
+        //Botao de acesso ao Gestor de Aluguer
+        private void buttonGestaoAluguer_Click(object sender, EventArgs e)
+        {
+            GestaoAluguer gestaoAluguer = new GestaoAluguer();
+            gestaoAluguer.Show();
         }
     }
 }

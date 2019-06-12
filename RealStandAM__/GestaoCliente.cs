@@ -19,6 +19,11 @@ namespace RealStandAM__
             InitializeComponent();
 
             Standreal = new RealStandAMmodelContainer();
+
+            (from Cliente in Standreal.ClienteSet
+             orderby Cliente.Nome
+             select Cliente).Load();
+            clienteBindingSource.DataSource = Standreal.ClienteSet.Local.ToBindingList();
         }
       
         private void buttonFiltrar_Click(object sender, EventArgs e)
@@ -28,10 +33,10 @@ namespace RealStandAM__
                 bindingNavigatorAddNewItem.Enabled = false;
                 Standreal.Dispose();
                 Standreal = new RealStandAMmodelContainer();
-                (from pessoa in Standreal.ClienteSet
-                 where pessoa.Nome.ToUpper().Contains(textBoxFilter.Text.ToUpper())
-                 orderby pessoa.Nome
-                 select pessoa).ToList();
+                (from cliente in Standreal.ClienteSet
+                 where cliente.Nome.ToUpper().Contains(textBoxFilter.Text.ToUpper())
+                 orderby cliente.Nome
+                 select cliente).ToList();
                 clienteBindingSource.DataSource = Standreal.ClienteSet.Local.ToBindingList();
             }
             else
@@ -39,9 +44,9 @@ namespace RealStandAM__
                 bindingNavigatorAddNewItem.Enabled = true;
                 Standreal.Dispose();
                 Standreal = new RealStandAMmodelContainer();
-                (from pessoa in Standreal.ClienteSet
-                 orderby pessoa.Nome
-                 select pessoa).Load();
+                (from cliente in Standreal.ClienteSet
+                 orderby cliente.Nome
+                 select cliente).Load();
                 clienteBindingSource.DataSource = Standreal.ClienteSet.Local.ToBindingList();
             }
         }
@@ -49,6 +54,25 @@ namespace RealStandAM__
         private void clienteBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
             Standreal.SaveChanges();
+        }
+
+
+        private void contactoTextBox_TextChanged_1(object sender, EventArgs e)
+        {
+            if (System.Text.RegularExpressions.Regex.IsMatch(contactoTextBox.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Por favor insira números.");
+                contactoTextBox.Text = contactoTextBox.Text.Remove(contactoTextBox.Text.Length - 1);
+            }
+        }
+
+        private void nifTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (System.Text.RegularExpressions.Regex.IsMatch(nifTextBox.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Por favor insira números.");
+                nifTextBox.Text = nifTextBox.Text.Remove(nifTextBox.Text.Length - 1);
+            }
         }
     }
 }
